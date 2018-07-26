@@ -88,16 +88,16 @@ public class PdfObject {
               System.out.println("Error while closing stream: " + ioe);
           }
       }
-		return pageByteStream;
+      return pageByteStream;
   }
 
   String redirect(int pageId) {
-		return Integer.toString(pageId) + " 0 R";
-	}  
+	  return Integer.toString(pageId) + " 0 R";
+  }  
   
-	public void renderPdfCharacters() {
-		System.out.println(Integer.toString(id) + " 0 obj<< % THIS SHOULD NOT BE VISIBLE object");
-	}
+  public void renderPdfCharacters() {
+	  System.out.println("Default version of renderPdfCharacters() used for object " + Integer.toString(id) + " (type: " + type + ")");
+  }
 
 }
 
