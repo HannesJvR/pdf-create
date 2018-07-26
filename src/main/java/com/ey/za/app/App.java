@@ -84,7 +84,7 @@ public class App
         int testPos = 7;
         byte[] data = new byte[9];
         String value = "";
-        int[] objectPositions = {11,101,163,341,409,457,519,624,720,826,875};
+        int[] objectPositions = {11,101,184,232,309,371,6608,13123,13228,22840,22947,37614,37721,37856,37963};
         //----------------------------------
         for (int loop : objectPositions) {
             testPos = loop;
